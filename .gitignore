@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test / tool cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Windows
+Thumbs.db
+Desktop.ini
